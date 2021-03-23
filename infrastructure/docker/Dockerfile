@@ -11,6 +11,7 @@ COPY . .
 RUN dotnet publish hello.net.csproj -c Release -o /app
 
 FROM base as run
+WORKDIR /app
 COPY --from=build /app .
 
 CMD ["dotnet", "hello.net.dll"]
