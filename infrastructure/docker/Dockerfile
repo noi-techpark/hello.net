@@ -14,4 +14,4 @@ FROM base as run
 WORKDIR /app
 COPY --from=build /app .
 
-CMD ["dotnet hello.net.dll"]
+ENTRYPOINT ["dotnet", "hello.net.dll"]
