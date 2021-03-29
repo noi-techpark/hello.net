@@ -3,7 +3,7 @@ pipeline {
         dockerfile {
             filename 'infrastructure/docker/Dockerfile'
         }
-    
+    } 
     stages {
         stage('Configure') {
             steps {
