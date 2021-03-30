@@ -5,10 +5,6 @@ pipeline {
         }
     } 
     stages {
-        stage('Configure') {
-            steps {
-            }
-        }
         stage('Build') {
             steps {
                 sh 'dotnet build'
