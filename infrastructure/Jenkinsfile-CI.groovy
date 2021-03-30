@@ -1,7 +1,7 @@
 pipeline {
     agent {
         dockerfile {
-            filename 'infrastructure/docker/Dockerfile'
+            filename 'infrastructure/docker/Dockerfile.build'
         }
     } 
     stages {
