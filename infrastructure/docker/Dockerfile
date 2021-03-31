@@ -8,7 +8,7 @@ RUN curl --silent --location https://deb.nodesource.com/setup_15.x | bash -
 RUN apt-get install --yes nodejs
 WORKDIR src/
 COPY . .
-RUN dotnet publish hello.net.csproj -c Release -o /app
+RUN cd webapp && dotnet publish hello.net.csproj -c Release -o /app
 
 FROM base as run
 WORKDIR /app
