@@ -44,7 +44,7 @@ namespace hello.net.Controllers
             return action;
         }
         private async Task<HttpResponseMessage> FetchData(){
-            var request = new HttpRequestMessage(HttpMethod.Get,"https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug/echarging-plug-status/latest?where=pcoordinate.bbc.(11.3279685,46.4789455,11.3340417,46.4801228),mvalue.eq.1,sactive.eq.true&select=pmetadata,pcode&limit=1");
+            var request = new HttpRequestMessage(HttpMethod.Get,"https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug/echarging-plug-status/latest?where=pcoordinate.bbc.(11.3279685,46.4789455,11.3340417,46.4801228),mvalue.eq.1,sactive.eq.true&select=pmetadata,pcode,pcoordinate&limit=1");
             request.Headers.Add("ContentType","application/json");
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request);

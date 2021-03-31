@@ -6,5 +6,7 @@ namespace hello.net
     {
         public String pcode {get;set;}
         public Dictionary<String,object> pmetadata {get;set;}
+
+        public Dictionary<String,object> pcoordinate {get;set;}
     }
 }
