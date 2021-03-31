@@ -3,8 +3,6 @@ pipeline {
     
     environment {
         PROJECT = "hello.net"
-        PROJECT_FOLDER = "data-collectors/${PROJECT}"
-        ARTIFACT_NAME = "dc-${PROJECT}"
         DOCKER_IMAGE = '755952719952.dkr.ecr.eu-west-1.amazonaws.com/hello.net'
         DOCKER_TAG = "test-$BUILD_NUMBER"
     }

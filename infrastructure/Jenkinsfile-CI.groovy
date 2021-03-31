@@ -4,6 +4,9 @@ pipeline {
             filename 'infrastructure/docker/Dockerfile.build'
         }
     } 
+    environment{
+        HOME = '/tmp'
+    }
     stages {
         stage('Build') {
             steps {
@@ -14,7 +17,6 @@ pipeline {
             steps {
                 sh 'dotnet test /p:CollectCoverage=true'
             }
-            
         }
     }
 }

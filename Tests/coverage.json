@@ -1,0 +1,412 @@
+{
+  "hello.net.dll": {
+    "/home/patrick/git/hello.net/EMobilityChargingData.cs": {
+      "hello.net.EMobilityChargingData": {
+        "System.String hello.net.EMobilityChargingData::get_pcode()": {
+          "Lines": {
+            "7": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.Dictionary`2<System.String,System.Object> hello.net.EMobilityChargingData::get_pmetadata()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/patrick/git/hello.net/ODHResponse.cs": {
+      "hello.net.ODHResponse": {
+        "System.Int32 hello.net.ODHResponse::get_limit()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 hello.net.ODHResponse::get_offset()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<hello.net.EMobilityChargingData> hello.net.ODHResponse::get_data()": {
+          "Lines": {
+            "12": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/patrick/git/hello.net/Program.cs": {
+      "hello.net.Program": {
+        "System.Void hello.net.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder hello.net.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/patrick/git/hello.net/Startup.cs": {
+      "hello.net.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration hello.net.Startup::get_Configuration()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void hello.net.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void hello.net.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 27,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 31,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void hello.net.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/patrick/git/hello.net/WeatherForecast.cs": {
+      "hello.net.WeatherForecast": {
+        "System.DateTime hello.net.WeatherForecast::get_Date()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 hello.net.WeatherForecast::get_TemperatureC()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 hello.net.WeatherForecast::get_TemperatureF()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String hello.net.WeatherForecast::get_Summary()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/patrick/git/hello.net/Pages/Error.cshtml.cs": {
+      "hello.net.Pages.ErrorModel": {
+        "System.String hello.net.Pages.ErrorModel::get_RequestId()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean hello.net.Pages.ErrorModel::get_ShowRequestId()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void hello.net.Pages.ErrorModel::OnGet()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void hello.net.Pages.ErrorModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<hello.net.Pages.ErrorModel>)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/patrick/git/hello.net/Controllers/EMobilityController.cs": {
+      "hello.net.Controllers.EMobilityController": {
+        "System.Void hello.net.Controllers.EMobilityController::.ctor(Microsoft.Extensions.Logging.ILogger`1<hello.net.Controllers.EMobilityController>,System.Net.Http.IHttpClientFactory)": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": []
+        }
+      },
+      "hello.net.Controllers.EMobilityController/<Get>d__3": {
+        "System.Void hello.net.Controllers.EMobilityController/<Get>d__3::MoveNext()": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 2,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 2,
+            "37": 1,
+            "38": 1,
+            "39": 0,
+            "40": 1,
+            "41": 0,
+            "42": 0,
+            "43": 1,
+            "44": 1,
+            "45": 1
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 197,
+              "EndOffset": 202,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 521,
+              "EndOffset": 523,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 521,
+              "EndOffset": 560,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 197,
+              "EndOffset": 648,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "hello.net.Controllers.EMobilityController/<FetchData>d__4": {
+        "System.Void hello.net.Controllers.EMobilityController/<FetchData>d__4::MoveNext()": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/patrick/git/hello.net/Controllers/WeatherForecastController.cs": {
+      "hello.net.Controllers.WeatherForecastController": {
+        "System.Collections.Generic.IEnumerable`1<hello.net.WeatherForecast> hello.net.Controllers.WeatherForecastController::Get()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void hello.net.Controllers.WeatherForecastController::.ctor(Microsoft.Extensions.Logging.ILogger`1<hello.net.Controllers.WeatherForecastController>)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void hello.net.Controllers.WeatherForecastController::.cctor()": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "hello.net.Views.dll": {
+    "/home/patrick/git/hello.net/Pages/Error.cshtml": {
+      "hello.net.Pages.Pages_Error/<ExecuteAsync>d__0": {
+        "System.Void hello.net.Pages.Pages_Error/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "15": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 70,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
